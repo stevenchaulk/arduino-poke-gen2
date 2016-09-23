@@ -30,7 +30,7 @@ typedef enum {
 	WAITING_TO_SEND_DATA,
 	SENDING_DATA,
         SENDING_PATCH_DATA,
-		MIMIC,
+	MIMIC,
         TRADE_PENDING,
         TRADE_CONFIRMATION,
         DONE
@@ -38,7 +38,7 @@ typedef enum {
 
 typedef unsigned char byte;
 
-#define PKMN_BLANK						0x00
+#define PKMN_BLANK					0x00
 
 #define ITEM_1_HIGHLIGHTED				0xD0
 #define ITEM_2_HIGHLIGHTED				0xD1
@@ -48,18 +48,18 @@ typedef unsigned char byte;
 #define ITEM_2_SELECTED					0xD5
 #define ITEM_3_SELECTED					0xD6
 
-#define GEN_II_CABLE_TRADE_CENTER		0xD1
-#define GEN_II_CABLE_CLUB_COLOSSEUM		0xD2
+#define GEN_II_CABLE_TRADE_CENTER			0xD1
+#define GEN_II_CABLE_CLUB_COLOSSEUM			0xD2
 
-#define PKMN_MASTER						0x01
-#define PKMN_SLAVE						0x02
+#define PKMN_MASTER					0x01
+#define PKMN_SLAVE					0x02
 #define PKMN_MASTER_GEN_III				0x8FFF	//??
 #define PKMN_SLAVE_GEN_III				0xB9A0 	//??
 #define PKMN_CONNECTED_I				0x60
 #define PKMN_CONNECTED_II				0x61
-#define PKMN_WAIT						0x7F
+#define PKMN_WAIT					0x7F
 
-#define PKMN_ACTION						0x60
+#define PKMN_ACTION					0x60
 
 #define PKMN_TRADE_CENTRE				ITEM_1_SELECTED
 #define PKMN_COLOSSEUM					ITEM_2_SELECTED
